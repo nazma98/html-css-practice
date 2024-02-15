@@ -1,0 +1,29 @@
+.amazon-link{
+    color: rgb(0,113,133);
+}
+
+.product{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.stock-number{
+    color: rgb(0,118,0);
+}
+
+.add-cart-btn{
+    background-color: rgb(255,216,20);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buy-now{
+    background-color: rgb(255,164, 28);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

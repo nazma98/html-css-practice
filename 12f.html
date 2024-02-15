@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex practice 6</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            padding: 10px;
+        }
+        .profile-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .pro-pic{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        .profile-info{
+            display: flex;
+            flex:1;
+            margin-left: 10px;
+            flex-direction: column;
+        }
+        .username{
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .add-info{
+            font-size: 16px;
+            color: rgb(142, 141, 141);
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .popular{
+            font-size:14px;
+            color:rgb(142, 141, 141);
+        }
+        .btn-follow{
+            color: white;
+            background-color: rgb(17, 122, 192);
+            font-weight: bold;
+            padding: 10px 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="profile-row">
+            <img class="pro-pic" src="images/neko.jpg" alt="">
+            <div class="profile-info">
+                <span class="username">oliver</span>
+                <span class="add-info">the cat</span>
+                <span class="popular">Popular</span>
+            </div>
+            <span class="btn-follow">Follow</span>
+        </div>
+        <div class="profile-row">
+            <img class="pro-pic" src="images/neko2.jpg" alt="">
+            <div class="profile-info">
+                <span class="username">Mimi</span>
+                <span class="add-info">Sleepy Cat</span>
+                <span class="popular">Popular</span>
+            </div>
+            <span class="btn-follow">Follow</span>
+        </div>
+        <div class="profile-row">
+            <img class="pro-pic" src="images/neko3.jpg" alt="">
+            <div class="profile-info">
+                <span class="username">Rex</span>
+                <span class="add-info">Happy Cat</span>
+                <span class="popular">Popular</span>
+            </div>
+            <span class="btn-follow">Follow</span>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.user-info{
+    margin-bottom: 8px;
+}
+.sender{
+    font-weight: bold;
+    
+}
+
+.username{
+    color: rgb(91, 89, 89);
+    text-decoration: none;
+}
+
+.content{
+    width: 600px;
+    line-height: 25px;
+}
+
+.user{
+    color: rgb(20, 137, 183);
+}

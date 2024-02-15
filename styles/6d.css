@@ -1,0 +1,25 @@
+body{
+    font-family: Montserrat;
+    align-items: center;
+
+}
+
+.title-model{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.order-link{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.delivery-link{
+    text-decoration: underline;
+   
+
+}
+

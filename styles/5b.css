@@ -1,0 +1,10 @@
+p{
+    font-family: arial;
+}
+.deal-text{
+    font-weight: bold;
+}
+.end-sale{
+    color: tomato;
+    font-style:italic;
+}

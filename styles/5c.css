@@ -1,0 +1,30 @@
+p{
+    font-family: Verdana;
+    margin-top: 0px;
+}
+.course-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.course-person{
+    color: gray;
+    font-size: 16px;
+
+}
+.course-description{
+    width:300px;
+    font-size: 16px;
+}
+
+.enrol-btn{
+    font-family: verdana;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(39, 125, 39);
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+
+}

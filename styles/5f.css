@@ -1,0 +1,25 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+}
+.currency{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.currency-usd{
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+.value-today{
+    color: rgb(56, 108, 56);
+    margin-bottom: 8px;
+}
+
+.later-rate{
+    color: rgb(83, 83, 83);
+}
+
+.rate{
+    color: rgb(170, 31, 31);
+}
