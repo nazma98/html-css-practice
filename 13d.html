@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested flexbox Challenge 2</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        .container{
+            width: 400px;
+            border: none;
+            box-shadow: 0 0 7px rgba(0,0,0,0.35);
+            border-radius: 2px;
+        }
+        .title{
+            font-size: 12px;
+            color: rgb(115, 115, 115);
+            font-weight: 600;
+            padding-top: 10px;
+            padding-left: 15px;
+        }
+
+        .message{
+            display: flex;
+            margin: 15px;
+            flex-direction: row;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sender-time-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .msg-sender{
+            font-size: 16px;
+            font-weight: 900;
+        }
+
+        .time{
+            font-size: 12px;
+            color: rgb(115, 115, 115);
+            font-weight: 700;
+        }
+
+        .msg-subject{
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+
+        .msg-perview{
+            font-size: 15px;
+            color: rgb(115, 115, 115);
+            margin-bottom: 25px;
+            
+        }
+        .profile-picture{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 25px;
+            margin-right:7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ALL INBOXES</div>
+        <div class="message">
+            <div class="profile">
+                <img class="profile-picture" src="images/neko2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="sender-time-row">
+                    <span class="msg-sender">Chewy Promotions</span> 
+                    <span class="time">4:58 PM</span>
+                </div>
+                <div class="msg-subject">Biggest sales of the year!</div>
+                <div class="msg-perview">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+        <div class="message">
+            <div class="profile">
+                <img class="profile-picture" src="images/Cockatiel-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="sender-time-row">
+                    <span class="msg-sender">Best Buy</span> 
+                    <span class="time">12:32 PM</span>
+                </div>
+                <div class="msg-subject">Your best buy eReceipt</div>
+                <div class="msg-perview">Thank you for shopping at Best Buy, here is...</div>
+            </div>
+        </div>
+        <div class="message">
+            <div class="profile">
+                <img class="profile-picture" src="images/neko3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="sender-time-row">
+                    <span class="msg-sender">Netflix</span> 
+                    <span class="time">9:00 AM</span>
+                </div>
+                <div class="msg-subject">Here's what's coming soon to Netflix</div>
+                <div class="msg-perview">Brand new movies and shows, old favorites...</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
