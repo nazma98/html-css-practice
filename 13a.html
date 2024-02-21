@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested flexbox practice 1</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .elem-1{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        background-color: lightpink;
+        height: 50px;
+        justify-content: center;
+    }
+    .item{
+        background-color: black;
+        color: white;
+    }
+    .elem-2{
+        width: 200px;
+        background-color: lightblue;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <div class="elem-1">
+            <span class="item">item1</span></div>
+        <div class="elem-2">
+        </div>
+    </div>
+    
+</body>
+</html>
