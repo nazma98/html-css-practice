@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - create modals</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .sidebar{
+            font-family:arial;
+            background-color: green;
+            color: white;
+            position: fixed;
+            width: 100px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .modal{
+            background-color: white;
+            width: 350px;
+            height: 120px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body style="width: 3000px;">
+    <div class="sidebar">
+        right sidebar
+    </div>
+    <div style="position: fixed;
+    display: flex;
+    vertical-align:middle;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);">
+        <div class="modal">
+            <div style="font-size: 25px;
+            font-weight: 600;
+            padding: 10px;">
+                Modal Title
+             </div>
+            <div style="padding-left: 10px;">This is a modal</div>
+            <button style="font-family:Arial ;
+            padding-left:5px ;
+            padding-right: 5px;
+            margin: 10px;">Close</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

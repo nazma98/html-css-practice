@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested flexbox Challenge 3</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+       
+        .user-picture{
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 35px;
+            margin-left: 10px;
+            margin-right:10px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            height: 250px;
+            align-items: start;
+        }
+        .tweet{
+            display: flex;
+            flex-direction: column;
+        }
+        .user-info{
+            margin-bottom:5px ;
+        }
+        .user-name{
+            font-weight:700 ;
+        }
+
+        .user-handle{
+            color: rgb(139, 138, 138);
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .post-caption{
+            line-height: 25px;
+            margin-bottom: 10px;
+        }
+
+        .video-preview{
+            border: 1px solid rgb(215, 215, 215);
+            border-radius: 15px;
+            height: 100px;
+            display: flex;
+            flex-direction:row ;
+            width: 350px;
+            overflow: hidden;
+        }
+        .left-section{
+            background-color:rgb(215, 215, 215) ;
+            width: 100px;
+            height: 100px;
+           
+           
+        }
+
+        .right-section{
+            width: 280px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction:column ;
+           margin-top: 20px;
+           
+            
+        }
+
+      .website-link{
+        color:rgb(190, 190, 190) ;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <img class="profile-picture" src="images/neko.jpg" alt="">
+        <div class="tweet">
+           <p><span>supersimple.dev </span><span>@SuperSimpleDev</span></p>
+           <p><span>What is backend web development? A complete overview. New video is up!</span></p>
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="left-section"></div>
+        <div class="right-section">
+            <span>youtube.com</span>
+            <span>Backend web development - a complete overview (2021)</span>
+        </div>
+   </div> -->
+
+   <div class="container">
+    <div class="profile-picture">
+        <img class="user-picture" src="images/neko2.jpg" alt="">
+    </div>
+    <div class="tweet">
+        <div class="content">
+            <div class="user-info">
+                <span class="user-name">supersimple.dev </span>
+                <span class="user-handle">@SuperSimpleDev</span>
+            </div>
+            <div class="post-caption">
+                What is backend web development? A complete overview. New video is up!
+            </div>
+                
+        </div>
+        <div class="video-preview">
+            <div class="left-section"></div>
+            <div class="right-section">
+                <div class="website-link">youtube.com</div>
+                <div>
+                    Backend web development - a complete overview (2021)
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
