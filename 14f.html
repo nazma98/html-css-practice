@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position Challenge - discord sidebar</title>
+    <style>
+        body{
+            height:3000px;
+            font-family: Arial;
+        }
+        .sidebar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 80px;
+            background-color: rgb(26, 28, 33);
+        }
+         .user-propic{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            margin-top: 15px;
+    }
+
+    .sidebar-ext{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        width: 280px;
+        background-color: rgb(48, 51, 53);
+        top: 0;
+        bottom: 0;
+        left: 80px;
+    }
+
+    .menu{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(51, 49, 49);
+     
+        
+    }
+
+    .channel-name{
+        color: white;
+        font-weight: 700;
+        margin: 20px;
+    }
+
+    .sub-channel{
+        color: gray;
+        font-size: 20px;
+        margin: 20px;
+        font-weight: 600;
+    }
+
+    .add-plus{
+        color: gray;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    </style>
+   
+</head>
+<body>
+
+    <div class="sidebar">
+        <img class="user-propic" src="images/Cockatiel-2.jpg" alt="">
+        <img class="user-propic" src="images/neko2.jpg" alt="">
+        <img class="user-propic" src="images/neko3.jpg" alt="">
+    </div>
+    <div class="sidebar-ext">
+        <div class="menu">
+            <div class="channel-name">INFO</div>
+            <div class="sub-channel"># new-videos</div>
+            <div class="sub-channel"># updates</div>
+            <div class="sub-channel"># faq</div>
+        </div>
+        <div class="add-plus">+</div>
+    </div>
+    
+</body>
+</html>
