@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute-relative prac</title>
+   
+</head>
+<body style="height: 3000px;">
+    <div style="background-color: black;
+    color:white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    z-index: 100;
+    ">
+        header
+    </div>
+    <div style="background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    position: relative;
+    ">
+        div 1
+        <div style="background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        padding: 2px;">
+            11:70
+        </div>
+    </div>
+    <div style="background-color: lightpink;
+    /* position: static; */
+    top: 400px;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    margin-top: 10px;">
+        div 2
+    </div>
+</body>
+</html>
